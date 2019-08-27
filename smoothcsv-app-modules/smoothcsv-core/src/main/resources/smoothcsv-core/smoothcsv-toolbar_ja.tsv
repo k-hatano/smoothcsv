@@ -10,10 +10,16 @@ grid:Paste	fa:#f0ea	貼り付け
 grid:Undo	fa:#f0e2	元に戻す
 grid:Redo	fa:#f01e	やり直す
 -
-find:Show	fa:#f002	検索と置換
+grid:InsertRowsBelow	fa:#f061	下に行を挿入
+grid:InsertColumnsRight	fa:#f063	右に列を挿入
 grid:Sort	fa:#f15d	並べ替え...
-grid:AutofitColumnWidth	fa:#f07e	列幅を自動調整
+grid:Filter	fa:#f0b0	フィルタ...
 -
+find:Show	fa:#f002	検索と置換
+grid:GoToLine	fa:#f0cb	指定行に移動
+grid:AutofitColumnWidth	fa:#f0db	列幅を自動調整
+-
+app:ToggleCommandPalette	fa:#f150	コマンドパレットを表示／非表示...
 app:ShowSqlTools	fa:#f1c0	SQLツール...
 -
 app:ShowSettings	fa:#f013	設定...
