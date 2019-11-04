@@ -10,8 +10,8 @@ grid:Paste	fa:#f0ea	Paste
 grid:Undo	fa:#f0e2	Undo
 grid:Redo	fa:#f01e	Redo
 -
-grid:InsertRowsBelow	fa:#f061	Insert Rows Below
-grid:InsertColumnsRight	fa:#f063	Insert Columns Right
+grid:InsertRowsBelow	fa:#f07e	Insert Rows Below
+grid:InsertColumnsRight	fa:#f07d	Insert Columns Right
 grid:Sort	fa:#f15d	Sort...
 grid:Filter	fa:#f0b0	Filter...
 -
