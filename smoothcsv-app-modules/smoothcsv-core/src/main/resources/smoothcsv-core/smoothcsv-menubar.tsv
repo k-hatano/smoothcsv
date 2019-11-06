@@ -45,6 +45,14 @@ Edit
 	-
 	Clear	grid:Clear
 	-
+
+Data
+	Sort...	grid:Sort
+	Sort Selected Rows...	grid:SortSelectedRows
+	Sort Selected Range...	grid:SortSelectedRange
+	-
+	Filter...	grid:Filter
+	-
 	Remove duplicate	grid:RemoveDuplicate
 	-
 	Fill
@@ -52,7 +60,7 @@ Edit
 		Fill Right	grid:FillRight
 		Fill Up	grid:FillUp
 		Fill Left	grid:FillLeft
-	Convert
+	Letter Case
 		Upper Case	convert:UpperCase
 		Lower Case	convert:LowerCase
 		Swap Case	convert:SwapCase
@@ -74,12 +82,6 @@ Grid
 	Delete Columns	grid:DeleteColumns
 	-
 	Delete Cell	grid:DeleteCell
-	-
-	Sort...	grid:Sort
-	Sort Selected Rows...	grid:SortSelectedRows
-	Sort Selected Range...	grid:SortSelectedRange
-	-
-	Filter...	grid:Filter
 	-
 	Toggle Use First Row As Header	grid:ToggleUseFirstRowAsHeader
 
@@ -105,10 +107,8 @@ View
 
 Tools
 	Toggle Command Palette...	app:ToggleCommandPalette
-	-
 	SQL Tools...	app:ShowSqlTools
-
-Macro
+	-
 	Toggle Macro Tools	macro:ToggleMacroTools
 	Start/Stop Recording Macro	macro:ToggleRecordingMacro
 	Edit Macro	macro:ShowEditor

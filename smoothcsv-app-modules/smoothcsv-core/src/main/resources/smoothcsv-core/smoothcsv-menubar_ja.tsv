@@ -44,6 +44,14 @@
 	すべての行を選択	grid:SelectEntireRow
 	すべての列を選択	grid:SelectEntireColumn
 	-
+
+データ
+	並べ替え...	grid:Sort
+	選択した行を並べ替え...	grid:SortSelectedRows
+	選択範囲を並べ替え...	grid:SortSelectedRange
+	-
+	フィルタ...	grid:Filter
+	-
 	重複を削除	grid:RemoveDuplicate
 	-
 	フィル
@@ -51,7 +59,7 @@
 		右方向にコピー	grid:FillRight
 		上方向にコピー	grid:FillUp
 		左方向にコピー	grid:FillLeft
-	変換
+	大文字/小文字
 		小文字→大文字	convert:UpperCase
 		大文字→小文字	convert:LowerCase
 		大文字と小文字を入れ替える	convert:SwapCase
@@ -73,12 +81,6 @@
 	列を削除	grid:DeleteColumns
 	-
 	セルを削除	grid:DeleteCell
-	-
-	並べ替え...	grid:Sort
-	選択した行を並べ替え...	grid:SortSelectedRows
-	選択範囲を並べ替え...	grid:SortSelectedRange
-	-
-	フィルタ...	grid:Filter
 	-
 	1行目を列名として扱う	grid:ToggleUseFirstRowAsHeader
 
@@ -105,8 +107,7 @@
 ツール
 	コマンドパレットを表示／非表示...	app:ToggleCommandPalette
 	SQLツール...	app:ShowSqlTools
-
-マクロ
+	-
 	マクロツールを表示／非表示	macro:ToggleMacroTools
 	マクロ記録開始／終了	macro:ToggleRecordingMacro
 	マクロを編集	macro:ShowEditor
