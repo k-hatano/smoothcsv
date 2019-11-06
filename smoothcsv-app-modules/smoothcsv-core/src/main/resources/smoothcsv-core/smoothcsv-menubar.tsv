@@ -4,6 +4,7 @@ File
 	Open...	app:OpenFile
 	Open As...	app:OpenFileAs
 	Open Recent	[open_recent]
+	-
 	Save	app:Save
 	Save As...	app:SaveAs
 	Save All	app:SaveAll
@@ -24,9 +25,10 @@ Edit
 	Cut	grid:Cut
 	Paste	grid:Paste
 	-
-	Copy Using File Format	grid:CopyUsingFileFormat
-	Cut Using File Format	grid:CutUsingFileFormat
-	Paste Using File Format	grid:PasteUsingFileFormat
+	Do Using File Format...
+		Copy	grid:CopyUsingFileFormat
+		Cut		grid:CutUsingFileFormat
+		Paste	grid:PasteUsingFileFormat
 	-
 	Copy As...
 		Markdown Table	grid:CopyAsMarkdownTable

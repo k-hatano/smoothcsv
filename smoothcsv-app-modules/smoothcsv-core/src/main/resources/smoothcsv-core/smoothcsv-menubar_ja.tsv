@@ -4,6 +4,7 @@
 	開く...	app:OpenFile
 	最近開いたファイル	[open_recent]
 	条件を指定して開く...	app:OpenFileAs
+	-
 	上書き保存	app:Save
 	名前をつけて保存...	app:SaveAs
 	すべて保存	app:SaveAll
@@ -25,9 +26,10 @@
 	貼り付け	grid:Paste
 	クリア	grid:Clear
 	-
-	ファイルの書式でコピー	grid:CopyUsingFileFormat
-	ファイルの書式で切り取り	grid:CutUsingFileFormat
-	ファイルの書式で貼り付け	grid:PasteUsingFileFormat
+	ファイルの形式で操作...
+		コピー	grid:CopyUsingFileFormat
+		切り取り	grid:CutUsingFileFormat
+		貼り付け	grid:PasteUsingFileFormat
 	-
 	形式を指定してコピー...
 		マークダウンのテーブル形式	grid:CopyAsMarkdownTable
