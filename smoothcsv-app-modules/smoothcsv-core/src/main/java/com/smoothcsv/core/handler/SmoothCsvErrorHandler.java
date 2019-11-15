@@ -96,7 +96,7 @@ public class SmoothCsvErrorHandler implements ErrorHandler {
       } else {
         LOG.error("Error", t);
         SwingUtils.beep();
-        MessageDialogs.showMessageString(null, "Error", JOptionPane.ERROR_MESSAGE);
+        MessageDialogs.showMessageString(null, "Error\n\n" + t.toString(), JOptionPane.ERROR_MESSAGE);
       }
     }
   }
