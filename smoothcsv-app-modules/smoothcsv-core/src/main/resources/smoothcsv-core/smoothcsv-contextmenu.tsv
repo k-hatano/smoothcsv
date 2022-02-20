@@ -36,6 +36,7 @@ grid-columnheader
 	Insert Columns Right	grid:InsertColumnsRight
 	Delete Columns	grid:DeleteColumns
 	-
+	Input Column Width	grid:InputColumnWidth
 	Toggle Use First Row As Header	grid:ToggleUseFirstRowAsHeader
 	Sort...	grid:Sort
 
@@ -43,6 +44,8 @@ grid-cornerheader
 	Copy	grid:Copy
 	Cut	grid:Cut
 	Paste	grid:Paste
+	-
+	Input Column Width	grid:InputColumnWidth
 
 tab
 	Close	app:Close

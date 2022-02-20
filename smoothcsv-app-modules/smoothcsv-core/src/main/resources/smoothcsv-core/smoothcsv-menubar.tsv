@@ -95,6 +95,7 @@ Find
 	Go To Line...	grid:GoToLine
 
 View
+	Input Column Width	grid:InputColumnWidth
 	Auto-Fit Column Width	grid:AutofitColumnWidth
 	Auto-Fit Column Width To Selected Data	grid:AutofitColumnWidthToSelectedCell
 	-
@@ -104,11 +105,17 @@ View
 	Toggle Status Bar	view:ToggleStatusBar
 	Toggle Tool Bar	view:ToggleToolBar
 	Toggle Cell Value Panel	view:ToggleCellValuePanel
+	-
+	Value Panel
+		Expand	value_panel:Expand
+		Compress	value_panel:Compress
+		Toggle Floating value_panel:ToggleFloating
 
 Tools
 	Toggle Command Palette...	app:ToggleCommandPalette
 	SQL Tools...	app:ShowSqlTools
-	-
+
+Macro
 	Toggle Macro Tools	macro:ToggleMacroTools
 	Start/Stop Recording Macro	macro:ToggleRecordingMacro
 	Edit Macro	macro:ShowEditor

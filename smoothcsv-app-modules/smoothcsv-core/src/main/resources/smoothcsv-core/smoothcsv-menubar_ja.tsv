@@ -94,6 +94,7 @@
 	指定行に移動...	grid:GoToLine
 
 表示
+	列幅を入力	grid:InputColumnWidth
 	列幅を自動調整	grid:AutofitColumnWidth
 	選択中のデータに合わせて列幅を自動調整	grid:AutofitColumnWidthToSelectedCell
 	-
@@ -103,11 +104,17 @@
 	ステータスバーを表示／非表示	view:ToggleStatusBar
 	ツールバーを表示／非表示	view:ToggleToolBar
 	値バーを表示／非表示	view:ToggleCellValuePanel
+	-
+	値バー
+		広げる	value_panel:Expand
+		縮める	value_panel:Compress
+		ウインドウから切り離す	value_panel:ToggleFloating
 
 ツール
 	コマンドパレットを表示／非表示...	app:ToggleCommandPalette
 	SQLツール...	app:ShowSqlTools
-	-
+
+マクロ
 	マクロツールを表示／非表示	macro:ToggleMacroTools
 	マクロ記録開始／終了	macro:ToggleRecordingMacro
 	マクロを編集	macro:ShowEditor

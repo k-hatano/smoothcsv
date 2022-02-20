@@ -15,6 +15,8 @@ package com.smoothcsv.core.csvsheet;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.awt.event.ItemEvent;
@@ -28,6 +30,7 @@ import javax.swing.JPanel;
 import javax.swing.JPopupMenu;
 import javax.swing.JScrollPane;
 import javax.swing.JToggleButton;
+import javax.swing.JButton;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.event.PopupMenuEvent;
@@ -43,6 +46,7 @@ import com.smoothcsv.core.util.CoreBundle;
 import com.smoothcsv.core.util.CoreSettings;
 import com.smoothcsv.core.util.SCAppearanceManager;
 import com.smoothcsv.framework.SCApplication;
+import com.smoothcsv.framework.command.CommandRegistry;
 import com.smoothcsv.framework.component.BaseTabView;
 import com.smoothcsv.framework.component.SCContentPane;
 import com.smoothcsv.framework.component.SCToolBar;
@@ -50,6 +54,7 @@ import com.smoothcsv.framework.menu.CommandMenuItem;
 import com.smoothcsv.swing.components.text.EditorPanel;
 import com.smoothcsv.swing.components.text.ExTextPaneConfig;
 import com.smoothcsv.swing.icon.AwesomeIcon;
+import com.smoothcsv.swing.icon.AwesomeIconConstants;
 import command.grid.StartEditCommand;
 import command.grid.StopEditCommand;
 import lombok.Getter;
@@ -172,6 +177,24 @@ public class CsvGridSheetCellValuePanel extends JPanel implements FocusListener,
     });
 
     toolBar.add(dropDownButton);
+
+    JButton expandButton = new JButton(AwesomeIcon.create(AwesomeIconConstants.FA_EXPAND));
+    expandButton.addActionListener(new ActionListener(){
+      @Override
+      public void actionPerformed(ActionEvent e) {
+        CommandRegistry.instance().runCommand("value_panel:Expand");
+      }
+    });
+    toolBar.add(expandButton);
+
+    JButton compressButton = new JButton(AwesomeIcon.create(AwesomeIconConstants.FA_COMPRESS));
+    compressButton.addActionListener(new ActionListener(){
+      @Override
+      public void actionPerformed(ActionEvent e) {
+        CommandRegistry.instance().runCommand("value_panel:Compress");
+      }
+    });
+    toolBar.add(compressButton);
 
     // toolBar.add("value-panel:expand", AwesomeIcon.FA_EXPAND, "Expand");
     // toolBar.add("value-panel:compress", AwesomeIcon.FA_COMPRESS, "Compress");

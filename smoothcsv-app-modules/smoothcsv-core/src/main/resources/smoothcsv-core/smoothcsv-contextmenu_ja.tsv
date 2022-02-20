@@ -36,6 +36,7 @@ grid-columnheader
 	右に列を挿入	grid:InsertColumnsRight
 	列を削除	grid:DeleteColumns
 	-
+	列幅を入力	grid:InputColumnWidth
 	1行目を列名として扱う	grid:ToggleUseFirstRowAsHeader
 	並べ替え...	grid:Sort
 
@@ -43,6 +44,8 @@ grid-cornerheader
 	コピー	grid:Copy
 	切り取り	grid:Cut
 	貼り付け	grid:Paste
+	-
+	列幅を入力	grid:InputColumnWidth
 
 tab
 	閉じる	app:Close

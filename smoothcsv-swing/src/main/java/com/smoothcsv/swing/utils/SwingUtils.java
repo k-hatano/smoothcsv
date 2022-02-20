@@ -690,16 +690,4 @@ public class SwingUtils {
     }
     return null;
   }
-
-  public static Component getClosestAncestor(Component c,
-                                             Class<? extends Component> ancestorClass,
-                                             boolean visibleOnly) {
-    for (; c != null; c = c.getParent()) {
-      if (ancestorClass.isAssignableFrom(c.getClass())
-          && (!visibleOnly || c.isVisible())) {
-        return c;
-      }
-    }
-    return null;
-  }
 }
