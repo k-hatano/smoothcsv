@@ -10,6 +10,7 @@ grid:Paste	fa:#f0ea	貼り付け
 grid:Undo	fa:#f0e2	元に戻す
 grid:Redo	fa:#f01e	やり直す
 -
+grid:EditSelectedRangeAsText	fa:#f040	選択範囲をテキストとして編集
 grid:InsertRowsBelow	fa:#f07e	下に行を挿入
 grid:InsertColumnsRight	fa:#f07d	右に列を挿入
 grid:Sort	fa:#f15d	並べ替え...

@@ -24,6 +24,7 @@ Edit
 	Copy Without Meta Characters	grid:CopyWithoutMetaChars
 	Cut	grid:Cut
 	Paste	grid:Paste
+	Clear	grid:Clear
 	-
 	Do Using File Format...
 		Copy	grid:CopyUsingFileFormat
@@ -42,9 +43,6 @@ Edit
 	Select All	grid:SelectAll
 	Select The Entire Row	grid:SelectEntireRow
 	Select The Entire Column	grid:SelectEntireColumn
-	-
-	Clear	grid:Clear
-	-
 
 Data
 	Sort...	grid:Sort
@@ -125,4 +123,5 @@ Macro
 	User-defined Macros	[user_defined_macros]
 
 Help
+	About...	app:About
 	Check For Updates...	app:CheckForUpdates

@@ -13,6 +13,8 @@ grid
 	JavaScriptのオブジェクト配列としてコピー	grid:CopyAsJavaScriptData
 	SQLのINSERT文としてコピー	grid:CopyAsSqlInsert
 	-
+	選択範囲をテキストとして編集...	grid:EditSelectedRangeAsText
+	-
 	クリア	grid:Clear
 	セルを除去	grid:DeleteCell
 	-

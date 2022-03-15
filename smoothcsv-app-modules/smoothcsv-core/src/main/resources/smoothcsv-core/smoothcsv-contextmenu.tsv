@@ -13,6 +13,8 @@ grid
 	Copy As JavaScript Object Array	grid:CopyAsJavaScriptData
 	Copy As SQL INSERT	grid:CopyAsSqlInsert
 	-
+	Edit Selected Range As Text...	grid:EditSelectedRangeAsText
+	-
 	Clear	grid:Clear
 	Delete Cell	grid:DeleteCell
 	-
